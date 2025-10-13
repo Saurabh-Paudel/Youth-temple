@@ -4,7 +4,7 @@ import { Heart } from "lucide-react";
 
 const CTASection = () => {
   return (
-    <div className="w-full h-auto flex items-center justify-center py-6">
+    <div className="w-full h-auto flex items-center justify-center mb-2">
       <div
         className="w-[1320px] h-[372px] rounded-3xl flex flex-col items-center justify-center space-y-6 relative text-white"
         style={{
