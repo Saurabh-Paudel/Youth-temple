@@ -7,7 +7,7 @@ import BlogSection from "@/components/BlogSection";
 import CTA from "./components/CallToAction";
 const page = () => {
   return (
-    <div>
+    <div className="">
       <HeroSection />
       <AboutUs />
       <WhatWeDo />

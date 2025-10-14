@@ -1,5 +1,6 @@
 import { HandHeart, Heart } from "lucide-react";
 import React from "react";
+import Image from "next/image";
 
 const WhoWeAre = () => {
   return (
@@ -8,29 +9,32 @@ const WhoWeAre = () => {
         {/* Left side - Images */}
         <div className="grid grid-cols-2 grid-rows-2 gap-4 h-[500px]">
           {/* Large image spanning top */}
-          <div className="col-span-2 rounded-lg overflow-hidden">
-            <img
+          <div className="col-span-2 rounded-lg overflow-hidden relative">
+            <Image
               src="/assets/about1.jpg"
               alt="Children in field"
-              className="w-full h-full object-cover"
+              fill
+              className="object-cover"
             />
           </div>
 
           {/* Bottom left image */}
-          <div className="rounded-lg overflow-hidden">
-            <img
+          <div className="rounded-lg overflow-hidden relative">
+            <Image
               src="/assets/aboutUs-banner-boy.jpg"
               alt="Child studying"
-              className="w-full h-full object-cover"
+              fill
+              className="object-cover"
             />
           </div>
 
           {/* Bottom right image */}
-          <div className="rounded-lg overflow-hidden">
-            <img
+          <div className="rounded-lg overflow-hidden relative">
+            <Image
               src="/assets/about2.jpg"
               alt="Child portrait"
-              className="w-full h-full object-cover"
+              fill
+              className="object-cover"
             />
           </div>
         </div>
@@ -68,7 +72,7 @@ const WhoWeAre = () => {
                 <HandHeart className="w-6 h-6 text-orange-600" />
               </div>
               <span className="font-manrope text-gray-800 font-medium">
-                Your support uplift Nepal's talented youth.
+                Your support uplift Nepal&apos;s talented youth.
               </span>
             </div>
 

@@ -50,7 +50,7 @@ const BlogSection = () => {
   ];
 
   return (
-    <section className="py-8 md:py-16 px-4 max-w-[1320px] mx-auto overflow-hidden ">
+    <section className="py-8 md:py-16 px-4 w-full max-w-[1320px] mx-auto overflow-hidden">
       <div className="mb-8 md:mb-12">
         {/* Section Header */}
         <div className="flex items-center gap-2 text-sm text-gray-600 mb-4">
@@ -106,11 +106,11 @@ const BlogSection = () => {
               {blogPosts.map((post) => (
                 <div
                   key={post.id}
-                  className="w-[352px] h-[409px] flex-shrink-0 px-4"
+                  className="w-full flex-shrink-0 px-4"
                 >
-                  <div className="relative bg-white rounded-lg overflow-hidden border border-gray-100 hover:shadow-lg hover:border-green-200 transition-all duration-300 group cursor-pointer">
+                  <div className="relative bg-white rounded-lg overflow-hidden border border-gray-100 hover:shadow-lg hover:border-green-200 transition-all duration-300 group cursor-pointer max-w-[352px] mx-auto">
                     {/* Blog Image */}
-                    <div className="relative h-[174px] w-[352px] overflow-hidden bg-gray-200">
+                    <div className="relative h-[174px] w-full overflow-hidden bg-gray-200">
                       <Image
                         src={post.image}
                         alt={post.title}

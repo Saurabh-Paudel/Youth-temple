@@ -29,10 +29,10 @@ const HeroSection = () => {
               </span>
               <span className="h-[2px] w-6 bg-orange-500"></span>
             </div>
-            <h2 className="font-sora text-[42px] font-bold">
+            <h2 className="font-sora text-3xl md:text-[42px] font-bold">
               Transforming Potential into Possibility
             </h2>
-            <p className="font-manrope text-base font-thin mb-8 ">
+            <p className="font-manrope text-base font-thin mb-8 px-2 md:px-0">
               Join us in giving Nepalese youth the education, skills, and
               opportunities they need to thrive and create lasting impact
             </p>
