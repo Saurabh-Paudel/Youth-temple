@@ -1,7 +1,3 @@
-import { ArrowRight } from "lucide-react";
-import Image from "next/image";
-import { LuScanEye } from "react-icons/lu";
-import { TbTargetArrow } from "react-icons/tb";
 import TestimonialCarousel from "./TestimonialCarousel";
 
 export default function Testimonial() {

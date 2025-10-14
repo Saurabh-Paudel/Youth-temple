@@ -1,5 +1,6 @@
 "use client";
 import React from "react";
+import { DonationSheet } from "@/app/donors/components/DonationSheet";
 
 const DonationButton = () => {
   const DonateIcon = () => (
@@ -49,15 +50,13 @@ const DonationButton = () => {
     </div>
   );
   return (
-    <button
-      className="fixed bottom-6 right-6 z-50 w-16 h-16 md:w-20 md:h-20 hover:scale-110 transition-all duration-300 cursor-pointer hover:rotate-6 group"
-      onClick={() => {
-        // Add donation functionality here
-        console.log("Donate button clicked");
-      }}
-    >
-      <DonateIcon />
-    </button>
+    <DonationSheet>
+      <button
+        className="fixed bottom-6 right-6 z-50 w-16 h-16 md:w-20 md:h-20 hover:scale-110 transition-all duration-300 cursor-pointer hover:rotate-6 group"
+      >
+        <DonateIcon />
+      </button>
+    </DonationSheet>
   );
 };
 

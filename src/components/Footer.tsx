@@ -74,37 +74,37 @@ const Footer = () => {
 
           <div className="flex flex-wrap space-x-8">
             <Link
-              href="#"
+              href="/"
               className="text-sm text-gray-700 hover:text-green-600"
             >
               Home
             </Link>
-            <Link
+            {/* <Link
               href="#"
               className="text-sm text-gray-700 hover:text-green-600"
             >
               Mission & Vision
-            </Link>
+            </Link> */}
             <Link
-              href="#"
+              href="/about-us"
               className="text-sm text-gray-700 hover:text-green-600"
             >
               About us
             </Link>
             <Link
-              href="#"
+              href="/donors"
               className="text-sm text-gray-700 hover:text-green-600"
             >
               Donars
             </Link>
             <Link
-              href="#"
+              href="/blogs"
               className="text-sm text-gray-700 hover:text-green-600"
             >
               Blogs
             </Link>
             <Link
-              href="#"
+              href="/contact"
               className="text-sm text-gray-700 hover:text-green-600"
             >
               Contact us
