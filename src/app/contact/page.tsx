@@ -32,7 +32,7 @@ export default function ContactPage(){
       </div>
 
       {/* Contact Form Container */}
-      <div className="relative px-4 sm:px-6 lg:px-8">
+      <div className="relative px-4 sm:px-6 lg:px-8 -z-10">
         <div className="border border-[#01B853] mx-auto w-full max-w-[1200px] p-4 sm:p-6 lg:p-8 rounded-2xl sm:rounded-3xl lg:rounded-4xl flex flex-col lg:flex-row gap-6 sm:gap-8 relative z-50 bg-white/95 backdrop-blur-sm shadow-lg">
           {/* Left Content */}
           <div className="w-full lg:w-auto">
